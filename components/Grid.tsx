@@ -1,7 +1,10 @@
-import React from 'react'
-import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
-import { gridItems } from '@/data'
+"use client"
+import React, { useMemo } from 'react'
 
+
+import { BentoGrid } from './ui/BentoGrid'
+import { gridItems } from '@/data'
+import { BentoGridItem } from './ui/BentoGridItem'
 export default function Grid() {
     return (
         <section id='about' >
@@ -20,7 +23,7 @@ export default function Grid() {
 
 
                     />
-                ))}
+                ))} 
             </BentoGrid>
         </section>
     )

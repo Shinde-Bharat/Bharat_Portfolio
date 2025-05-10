@@ -4,8 +4,9 @@ import { Input } from "./Input";
 import { cn } from "@/utils/cn";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
-import Lottie from "react-lottie";
 import animationData from '@/data/msgConfetti.json'
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 
 export default function ContactForm() {
