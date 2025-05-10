@@ -97,7 +97,7 @@ export default function ContactForm() {
                 </LabelInputContainer>
 
                 <div className={`absolute bottom-0 right-0 h-screen`}>
-                    {
+                    {/* {
                         isSubmitted &&
                         <Lottie
                             options={{
@@ -110,7 +110,7 @@ export default function ContactForm() {
                             }}
 
                         />
-                    }
+                    } */}
 
                 </div>
                 <MagicButton
