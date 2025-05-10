@@ -155,7 +155,7 @@ export const testimonials = [
             "Bharat played a key role in developing an efficient online booking system for Swagat Banquets. His focus on usability, backend logic, and database integration showcased his strong development skills and commitment to delivering practical, real-world solutions.",
         name: "Mrs. Rajendr Mirajkar",
         id: 2,
-        photo: '/testimonials/rajendr.png',
+        photo: '/testimonials/sanket.jpg',
         title: "Swagat Banquets Hall Kolhapur"
     },
     {
